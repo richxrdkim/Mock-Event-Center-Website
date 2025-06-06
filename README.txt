@@ -6,7 +6,7 @@ This project is a multi-page responsive website for a mock event center. It incl
 Project Structure:
 - .html/         → Contains all HTML files for the site (e.g., index, events, menu, contact, location)
 - .css/          → Contains individual CSS stylesheets for each page and shared styles (e.g., nav.css, style.css)
-- Images/        → Contains all image assets used across the site (e.g., homepage hero, themed event images)
+- images/        → Contains all image assets used across the site (e.g., homepage hero, themed event images)
 
 HTML Files:
 - index.html     → Homepage with hero image and navigation
@@ -21,7 +21,7 @@ Styling:
 - Responsive layout is implemented for mobile friendliness
 
 Assets:
-- All image files are stored in the `Images/` folder and correctly linked using relative paths (e.g., `../Images/fall.jpg`)
+- All image files are stored in the `images/` folder and correctly linked using relative paths (e.g., `../images/fall.jpg`)
 
 Testing:
 - Verified rendering in Chrome and Firefox
