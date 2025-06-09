@@ -31,8 +31,5 @@ Testing:
 - HTML and CSS are cleanly separated and modular
 
 Author:
-[Your Name Here]
-
-Notes:
-Make sure to keep the folder structure intact when viewing the site locally. For best results, open HTML files in a browser using a local server (e.g., with VS Code’s Live Server).
+Richard Kim
 

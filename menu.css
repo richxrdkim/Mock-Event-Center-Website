@@ -8,7 +8,6 @@
     font-family: ysabeau;
     font-size: 25px;
     text-align: center;
-
 }
 
 /* Table styling */
@@ -23,8 +22,8 @@ table {
 
 /* Category header styling */
 th.category-header {
-  background-color: #85878a; /* dark blue-gray */
-  color: #f4f4f9; /* light text */
+  background-color: #85878a;
+  color: #f4f4f9;
   text-align: left;
   padding: 1rem;
   font-size: 1.3rem;
@@ -32,20 +31,10 @@ th.category-header {
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-/* Column headers under each category */
-thead tr:nth-child(2) th {
-  background-color: #ecf0f1; /* light gray */
-  color: #7f8c8d; /* muted text */
-  font-weight: 600;
-  padding: 0.7rem 1rem;
-  text-align: left;
-  border-radius: 8px;
-}
-
 /* Table cells */
 th, td {
   padding: 0.8rem 1rem;
-  border: none; /* no border for cleaner look */
+  border: none;
   background-color: white;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   border-radius: 8px;
@@ -58,18 +47,4 @@ td.price {
   font-weight: 700;
   color: #585b5e;
   width: 80px;
-}
-
-/* Images inside cells */
-td img {
-  max-width: 60px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  display: block;
-  margin: 0 auto;
-}
-
-/* Striped rows effect: lighter shadow for even rows */
-tbody tr:nth-child(even) td {
-  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
 }
